@@ -1,0 +1,62 @@
+{
+    "name": "NgFormBuilder",
+    "displayName": "Ng-ReactiveForm Builder",
+    "description": "Build Ng-Reactive-Forms from 'ts' interface/model-class/JSON",
+    "version": "0.0.2",
+    "publisher": "AsifNawaz",
+    "repository": {
+        "url": "https://github.com/nzasif/ngformbuilder.git",
+        "type": "git"
+    },
+    "homepage": "https://github.com/nzasif/ngformbuilder/blob/master/README.md",
+    "galleryBanner": {
+        "color": "#000044",
+        "theme": "light"
+    },
+    "icon": "logo.png",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    nf6jmalndidzhl7gg3f2jn2pyslgkhd5mpipjsp7uusxmnraacfq
+    "categories": [
+        "Other",
+        "Programming Languages",
+        "Formatters"
+    ],
+    "keywords": [
+        "Ng Form Builder",
+        "ng form builder",
+        "builder",
+        "form builder",
+        "angular form builder",
+        "angular form",
+        "ng",
+        "Angular"
+    ],
+    "activationEvents": [
+        "onCommand:extension.ngFormBuilder"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.ngFormBuilder",
+                "title": "Ng Form Builder"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "eslint . --ext .ts,.tsx",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^12.12.0",
+        "@typescript-eslint/eslint-plugin": "^3.0.2",
+        "@typescript-eslint/parser": "^3.0.2",
+        "eslint": "^7.1.0",
+        "typescript": "^3.9.4",
+        "@types/vscode": "^1.32.0"
+    }
+}
