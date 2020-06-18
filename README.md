@@ -53,13 +53,10 @@ interface Address {
 7.  Enter properties name, those need a textarea.
 ```
 *********************************************************************
-<<<<<<< HEAD
 > Note: The default mat-formField is mat-input of type=text (when no information is available), for boolean type mat-radioGroup will be used, string and number type will match to type="text", and type="number"!
 =======
 > Note: The default mat-formField is mat-input of type=text (when no information is available),
 for boolean type mat-radioGroup will be used, string and number type will match to type="text", and type="number"!
->>>>>>> b0f0288f785f7d6905590d700f4868f0e8830807
-
 ## Demo
 ![demo](demo.gif)
 

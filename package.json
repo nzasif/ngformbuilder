@@ -17,10 +17,7 @@
     "engines": {
         "vscode": "^1.32.0"
     },
-<<<<<<< HEAD
     "readme": "./README.md",
-=======
->>>>>>> b0f0288f785f7d6905590d700f4868f0e8830807
     "categories": [
         "Other",
         "Programming Languages",
