@@ -1,5 +1,5 @@
 {
-    "name": "NgRapidFormBuilder",
+    "name": "ngrapidformbuilder",
     "displayName": "Ng-ReactiveForm Builder",
     "description": "Build Ng-Reactive-Forms from 'ts' interface/model-class/JSON",
     "version": "0.0.1",
