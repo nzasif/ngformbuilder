@@ -55,7 +55,8 @@ interface Address {
 ![demo](demo.gif)
 
 ```
-When all this done, you will get two untitled documents, one is showing the 'typescript' portion of the form (with getters) the other document showing the 'html' portion of the form.
+- When all this done, you will get two untitled documents, one is showing the 'typescript'
+- portion of the form (with getters) the other document showing the 'html' portion of the form.
 ```
 ********************************************************************
 ```
