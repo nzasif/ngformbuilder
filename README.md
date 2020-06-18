@@ -1,7 +1,7 @@
 ## Ng-ReactiveForm Builder
 ##### Features
 - This extention build angular reactive-form from typescript
-interface/model-class or from json.
+interface/model-class or from json, with form controls getters and mat-from components
 - Generate ng-reactive-form using FormBuilder, it also generate getters
 for all the controls of the form (including the nesting formGroups).
 - Generate mat-from components for the form controls, you can define what type of mat-form field to use for which property/attribute.
@@ -63,4 +63,5 @@ From these documents you can copy&paste the code inside your angular files.
 ```
 > This extension does not alter your project files, it is safe to use.
 ------------------------
+> Search in vs code by typing _> ng-reactiveform builder
 > You can find the source code [here](https://github.com/nzasif/ngformbuilder.git)
